@@ -26,7 +26,7 @@ const total = document.getElementById('total');
 
 // shipping Button event handler
 normalBtn.addEventListener('click', function(){
-    shippingFiled.innerText = '10';
+    shippingFiled.innerText = '5';
     updateTotal();
 })
 expressBtn.addEventListener('click', function(){
